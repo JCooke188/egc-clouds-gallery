@@ -1,3 +1,26 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "2026-11-02-sst-and-log-gradt-winter-djf-2023-into-2024",
+      "title": "SST and log(gradT) Winter (DJF) 2023 into 2024",
+      "date": "2026-11-02",
+      "type": "video",
+      "file": "media/videos/2026-11-02-sst-and-log-gradt-winter-djf-2023-into-2024.mp4",
+      "poster": "media/thumbs/2026-11-02-sst-and-log-gradt-winter-djf-2023-into-2024-poster.webp",
+      "thumb": "media/thumbs/2026-11-02-sst-and-log-gradt-winter-djf-2023-into-2024.webp",
+      "width": 960,
+      "height": 480,
+      "duration_s": 136.8,
+      "source_resolution": "2000x1000",
+      "caption": "Hourly GOES-16 SST (left) and log10|∇SST| (right), 1 December 2023 to 1 March 2024, 30–72°N, 75–30°W.",
+      "tags": ["GOES-16", "SST", "SST gradients", "DJF 2023-24"],
+      "data_sources": ["GOES-16 ABI L2 SST"],
+      "featured": true, 
+      "full_res": {
+        "url": "https://zenodo.org/records/23897898/files/goes16_sst_20231201_20240301_1h_30N-72N_75W-30W.mp4",
+        "label": "Zenodo"
+      },
+      "added": "2026-11-02T16:25:08"
+    }
+  ]
 }
