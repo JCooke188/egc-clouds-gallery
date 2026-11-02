@@ -1,0 +1,28 @@
+{
+  "title": "Submesoscale ocean structure and cloud formation off East Greenland",
+  "short_title": "EGC clouds",
+  "hero_caption": "Schematic, not data: sea ice and cold shelf water stay clear, while cloud streets form over warmer offshore water and above a detached warm eddy.",
+  "summary": [
+    "Submesoscale features within boundary currents contribute to enhanced latent heat fluxes, impacting cloud formation. Combining high spatiotemporal resolution SST data from geostationary satellites with atmospheric reanalysis products, this work will connect how the submesoscales in the East Greenland Current (EGC) system contribute to offshore cloud development near Greenland."
+  ],
+  "repo": "https://github.com/JCooke188/egc-clouds-gallery",
+  "contact": {
+    "name": "Justin Cooke",
+    "email": ""
+  },
+  "links": [
+    { "label": "Browse all figures and videos", "url": "gallery.html" },
+    { "label": "Source for this site on GitHub", "url": "https://github.com/JCooke188/egc-clouds-gallery" }
+  ],
+  "team": [
+    { "name": "Justin Cooke", "role": "Lead", "institution": "Graduate School of Oceanography, University of Rhode Island", "url": "" },
+    { "name": "Nick Pizzo", "role": "", "institution": "Graduate School of Oceanography, University of Rhode Island", "url": "" },
+    { "name": "Mara Freilich", "role": "", "institution": "Brown University", "url": "" },
+    { "name": "Chris Horvat", "role": "", "institution": "Brown University", "url": "" },
+    { "name": "Luc Lenain", "role": "", "institution": "Scripps Institution of Oceanography, University of California San Diego", "url": "" },
+    { "name": "Lia Siegelman", "role": "", "institution": "Scripps Institution of Oceanography, University of California San Diego", "url": "" },
+    { "name": "Kaushik Srinivasan", "role": "", "institution": "University of California Los Angeles", "url": "" },
+    { "name": "Roy Barkan", "role": "", "institution": "University of California Los Angeles", "url": "" },
+    { "name": "Matthew Siegfried", "role": "", "institution": "Colorado School of Mines", "url": "" }
+  ]
+}

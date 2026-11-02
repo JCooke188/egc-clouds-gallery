@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gallery | EGC clouds</title>
+  <meta name="description" content="Figures and animations from the EGC clouds project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="gallery">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="site-name" href="./" data-site="short_title">EGC clouds</a>
+    <nav aria-label="Site">
+      <a href="./">Overview</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+    </nav>
+  </header>
+
+  <div class="hero hero-strip" aria-hidden="true">
+    <img src="assets/img/hero.svg" alt="">
+  </div>
+
+  <main id="main" class="wrap">
+    <h1 class="page-title">Gallery</h1>
+
+    <form class="filters" role="search" aria-label="Filter the gallery" onsubmit="return false">
+      <label class="field search">
+        <span>Search</span>
+        <input type="search" name="q" placeholder="Title, caption, data source" autocomplete="off">
+      </label>
+      <fieldset class="field kind">
+        <legend>Show</legend>
+        <div class="options">
+          <label><input type="radio" name="kind" value="all" checked> All</label>
+          <label><input type="radio" name="kind" value="figure"> Figures</label>
+          <label><input type="radio" name="kind" value="video"> Videos</label>
+        </div>
+      </fieldset>
+      <label class="field sort">
+        <span>Order</span>
+        <select name="sort">
+          <option value="new">Newest first</option>
+          <option value="old">Oldest first</option>
+        </select>
+      </label>
+      <div class="field tags" data-tags hidden>
+        <span id="tags-label">Tags</span>
+        <div role="group" aria-labelledby="tags-label" data-tag-list></div>
+      </div>
+    </form>
+
+    <p class="count" aria-live="polite" data-count></p>
+    <ul class="grid" data-grid></ul>
+    <div class="empty" data-empty hidden></div>
+  </main>
+
+  <dialog class="viewer" data-viewer aria-labelledby="viewer-title">
+    <div class="viewer-media" data-viewer-media></div>
+    <div class="viewer-body">
+      <h2 id="viewer-title" data-viewer-title></h2>
+      <div class="caption" data-viewer-caption></div>
+      <dl class="meta" data-viewer-meta></dl>
+      <div class="viewer-actions">
+        <button type="button" data-copy>Copy link</button>
+        <a class="button" data-fullres hidden>Download full resolution</a>
+        <span class="spacer"></span>
+        <button type="button" data-prev aria-label="Previous item">Previous</button>
+        <button type="button" data-next aria-label="Next item">Next</button>
+        <button type="button" data-close autofocus>Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer wrap">
+    <div class="rule"><p data-footer></p></div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

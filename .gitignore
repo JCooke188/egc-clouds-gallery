@@ -1,0 +1,13 @@
+# Full-resolution originals belong on Zenodo, not in this repository
+media/originals/
+*.nc
+*.nc4
+*.h5
+*.zarr/
+*.mat
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+__pycache__/
+.ipynb_checkpoints/
